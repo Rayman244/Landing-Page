@@ -1,0 +1,71 @@
+/* Universal Selector */
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Element Selector */
+body {
+  background-color: bisque;
+  text-align: center;
+}
+header {
+  display: block;
+  padding: 10px;
+  background-color:#FC766AFF;
+  height: 78px;
+}
+
+header nav {
+  position: fixed;
+  font-size: 20px;
+  width: 97%;
+  background-color: lightgray;
+}
+header nav h1 {
+  display: inline-block;
+  float: left;
+  margin: 20px;
+}
+nav ul {
+  float: right;
+  list-style-type: none;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  font-size: 25px;
+}
+.title {
+  font-size: 30px;
+}
+
+footer {
+  margin: 40px;
+}
+
+/* id Selector */
+#top {
+}
+#myPhoto {
+  height: 400px;
+}
+
+#middle{
+background-color: #184A45FF;
+}
+#contactMe {
+  margin: 0 auto;
+  width: 300px;
+  
+}
+.contact {
+  font-size: 18px;
+}
+.field {
+  margin: 5px;
+}
